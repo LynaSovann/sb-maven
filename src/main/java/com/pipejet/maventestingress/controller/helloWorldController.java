@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class helloWorldController {
     @GetMapping
-    public String devBranch() {
-        return "dev branch!";
+    public String proBranch() {
+        return "pro branch!";
     }
 }
